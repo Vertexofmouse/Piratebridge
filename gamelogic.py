@@ -287,7 +287,7 @@ class game:
         cumscores = np.zeros(m)
         scoretext = 'First round'
         V = play_game(m, 1, self.size, self.players, prints=True)
-        for n in range(8,10):
+        for n in range(1,7):
             for i in range(m):
                 p = Player(n, m, strat= self.strats[i])
                 self.players.append(p)
